@@ -1,0 +1,44 @@
+
+
+```css
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000; /* Black background */
+  color: gold;
+}
+
+.container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  border-bottom: 2px solid gold;
+  padding-bottom: 10px;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid gold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section:hover {
+  background-color: rgba(255, 215, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+  margin-top: 10px;
+}
+```
+
+Need the last one — `script.js`?
